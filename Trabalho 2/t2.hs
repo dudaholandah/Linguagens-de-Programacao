@@ -158,13 +158,6 @@ planoValido ls = estaOrdenado hors && todosDiferentes hors && all estaOrdenado m
 
 -}
 
--- plantaoInvalido2 =
---   [ (6, [Medicar med6, Medicar med9]),
---     (8, [Medicar med2, Medicar med4]),
---     (17, [Medicar med4, Comprar med4 30]),
---     (22, [Medicar med7])
---   ]
-
 unicaOcorrencia :: Medicamento -> [Cuidado] -> Bool
 unicaOcorrencia med [] = True
 unicaOcorrencia med (Comprar m q:ls)
@@ -224,12 +217,6 @@ juntaPlano receit (h:hs) = (h, juntaMedicamento h receit) : juntaPlano receit hs
 geraPlanoReceituario :: Receituario -> PlanoMedicamento
 geraPlanoReceituario n = juntaPlano n (listaHorarios n)
    where listaHorarios rc = sort $ nub $ concat $ [hors | (med,hors) <- rc]
-
--- geraPlanoReceituario :: Receituario -> PlanoMedicamento -- PlanoMedicamento
--- geraPlanoReceituario x = juntaMedicamentos x (listaHorarios x)
---    where listaHorarios rc = sort $ nub $ concat $ [hors | (med,hors) <- rc]
-
-
 
 {- QUESTÃO 8  VALOR: 1,0 ponto
 
