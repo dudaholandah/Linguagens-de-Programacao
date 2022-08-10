@@ -36,3 +36,20 @@ O objetivo desse trabalho é fornecer apoio ao gerenciamento de cuidados a serem
   - [Conjunto de Testes](Trabalho%202/testes.hs)
   
 </details> 
+
+## Trabalho 3
+
+<!--objetivo--> 
+
+<details>
+  <summary>Resolução</summary>
+  
+  - [Enunciado das Questões](Trabalho%203/README.md)
+  - [Questão 1](Trabalho%203/q1)
+  - [Questão 2](Trabalho%203/q2)
+  - [Questão 3](Trabalho%203/q3)
+  - [Questão 4](Trabalho%203/q4)
+  - [Questão 5](Trabalho%203/q5)
+
+  
+</details> 
