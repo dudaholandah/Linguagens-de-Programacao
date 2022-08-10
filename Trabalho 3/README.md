@@ -36,7 +36,8 @@ Evolua a linguagem resultante da Questão 3 de forma a implementar o comando try
 - se nenhum comando de stmsT falhar, passa-se diretamente à execução dos comandos de stmsF, ignorando-se os de stmsC.
 
 Note, portanto, que os comandos de stmsF são sempre executados, e que os de stmsC apenas se houver falha em algum de stmsT. A figura abaixo ilustra o fluxo de controle desejado:
-<img align='center' src="imgq4.png" width="500" style="padding:20px">
+
+<img align='center' src="imgq4.png" width="600" style="padding:30px">
 
 O arquivo AbsLI.hs define a estrutura da nova linguagem, contendo uma alternativa na definição do tipo algébrico Stm (o construtor de tipo STry seguido de três listas de comandos) para representar o comando try catch finally. Assim, no arquivo Interpreter.hs, utilize padrões apropriados para definir o comportamento desse novo comando. No arquivo TestesQ4.hs, há exemplos de programas de entradas e saídas esperadas. Você não deve alterar o arquivo AbsLI.hs.
 
