@@ -41,6 +41,8 @@ O objetivo desse trabalho é fornecer apoio ao gerenciamento de cuidados a serem
 
 <!--objetivo--> 
 
+Trata-se de um conjunto de exercícios em Haskell com o objetivo de praticar os fundamentos da linguagem funcional assim como compreender como funciona o processo de implementação de um tradutor e qual sua funcionalidade.
+
 <details>
   <summary>Resolução</summary>
   
